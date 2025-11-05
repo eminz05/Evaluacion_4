@@ -1,4 +1,4 @@
-#import funcion as fn
+import funcion as fn
 compradores_iluminados={}
 compradores_fortificados={}
 
@@ -20,11 +20,11 @@ while True:
         print("Debe ingresar un número entero.")
 
     if opc == 1:
-        print(2)
+        fn.comprar_entrada_fortificados(stock_entradas,compradores_fortificados)
     elif opc == 2:
-        print(4)
+        fn.comprar_entrada_iluminados(stock_entradas, compradores_iluminados)
     elif opc == 3:
-        print(4)
+        fn.muestra_entradas(stock_entradas)
     elif opc == 4:
         print("Programa terminado...")
         break
