@@ -17,7 +17,7 @@ def comprar_entrada_fortificados(stock_entradas,compradores_fortificados):
             print("Código no válido. Intente otra vez.")
             return
         
-        
+    
 def comprar_entrada_iluminados(stock_entradas, compradores_iluminados):
     nombre=input("Ingrese un nombre: ").strip().title()
 

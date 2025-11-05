@@ -20,11 +20,11 @@ while True:
         print("Debe ingresar un número entero.")
 
     if opc == 1:
-        fn.comprar_entrada_fortificados(stock_entradas,compradores_fortificados)
+        fn.comprar_entrada_fortificados()
     elif opc == 2:
-        fn.comprar_entrada_iluminados(stock_entradas, compradores_iluminados)
+        fn.comprar_entrada_iluminados()
     elif opc == 3:
-        fn.muestra_entradas(stock_entradas)
+        fn.muestra_entradas()
     elif opc == 4:
         print("Programa terminado...")
         break
