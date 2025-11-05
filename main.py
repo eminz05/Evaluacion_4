@@ -9,8 +9,8 @@ stock_entradas={
 
 while True:
     print("TOTEM AUTOSERVICIO CONCIERTOS ROCK AND CHILE")
-    print("1.- Comprar entrada a “los Fortificados”.")
-    print("2.- Comprar entrada a “los Iluminados”.")
+    print("1.- Comprar entrada a “Los Fortificados”.")
+    print("2.- Comprar entrada a “Los Iluminados”.")
     print("3.- Stock de entradas para ambos conciertos.")
     print("4.- Salir.")
 
